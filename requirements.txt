@@ -1,0 +1,10 @@
+# Kitsune core functionality uses only the Python standard library
+# (socket, ssl, http.client, ipaddress, concurrent.futures, argparse,
+# dataclasses, subprocess, json, logging) and has no hard runtime
+# dependencies.
+#
+# This file is intentionally near-empty to keep installation simple.
+# It exists as a place to pin dependencies if optional integrations
+# are added later (e.g. a nicer HTTP client, colored terminal output).
+
+# No required third-party packages.
